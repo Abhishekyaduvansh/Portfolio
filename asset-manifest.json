@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0348d160.css",
+    "main.js": "/Portfolio/static/js/main.6dc20baf.js",
+    "static/media/My1.jpg": "/Portfolio/static/media/My1.91e4119ff70968d8fb8f.jpg",
+    "static/media/tomcat.png": "/Portfolio/static/media/tomcat.c1810480807aa3a3ca7c.png",
+    "static/media/mySql.png": "/Portfolio/static/media/mySql.167c88550478e6f0f85c.png",
+    "static/media/css.webp": "/Portfolio/static/media/css.8a9cb64261d07da57f4f.webp",
+    "static/media/kali.jpg": "/Portfolio/static/media/kali.a2977fb7431951d35142.jpg",
+    "static/media/spring-boot-logo.png": "/Portfolio/static/media/spring-boot-logo.94f201ce44348763e6a5.png",
+    "static/media/html.webp": "/Portfolio/static/media/html.09472bc29dde4d23fcef.webp",
+    "static/media/oracle.png": "/Portfolio/static/media/oracle.a5f61773c5f554a5d864.png",
+    "static/media/js.webp": "/Portfolio/static/media/js.17b8259b333156d4ef4a.webp",
+    "static/media/java.png": "/Portfolio/static/media/java.66c01e0c39bbdd9ae552.png",
+    "static/media/R.png": "/Portfolio/static/media/R.8af8a88a9137f505a091.png",
+    "static/media/bootstrap-logo.png": "/Portfolio/static/media/bootstrap-logo.9b083ec66be019633ffb.png",
+    "static/media/reactimg.png": "/Portfolio/static/media/reactimg.ccb97f287d4d51b10a6b.png",
+    "index.html": "/Portfolio/index.html",
+    "main.0348d160.css.map": "/Portfolio/static/css/main.0348d160.css.map",
+    "main.6dc20baf.js.map": "/Portfolio/static/js/main.6dc20baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0348d160.css",
+    "static/js/main.6dc20baf.js"
+  ]
+}
