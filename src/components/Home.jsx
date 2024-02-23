@@ -42,24 +42,13 @@ function Home() {
 </div>
    </div>
 
-
-
-
-
-
-
-
-
-
-
    <div className='container-fluid m-0 pt-5 bg-black row justify-content-center' >
     <div className="col-sm-12 col-md-8 text-center features "> 
       <p className="col" style={{color:"#c8bcbc"}}> <i class='bx bxs-quote-alt-left text-white'></i>  I'm a Full-Stack Student with Hands-on experience on projects. My Exprtise is to create website design layout database management, 
         Frontend design, and many more....
-        I am Abhishek Yadav, A Computer Science Engineering student from
-        National Institute of Technology Rourkela. I love to code and solve problems using programming languages
-        the prestigious Accuarte Institute of management and technology (AKTU),
-        Gr. Noida. I have always been fascinated by the world of coding and
+        I am Abhishek Yadav, A recent graduated Fresher from the prestigious Accuarte Institute of management and technology (AKTU),
+        Gr. Noida in Btech Computer Science Engineering . I love to code and solve problems using programming languages
+        . I have always been fascinated by the world of coding and
         technology. My journey in this field began when I was just 18 years old.
         Since then, I have had an incredible journey where I not only learned how to code but
         also developed skills in designing user interfaces, working with databases,

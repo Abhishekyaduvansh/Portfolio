@@ -29,10 +29,13 @@ import emailjs from '@emailjs/browser';
   
     <h1  style={{display:"inline"}}  className='text-center  text-white fw-bold fs-1 mt-5 m-auto '>Contact Me<span className='text-danger'>.</span></h1>
   <div className='container d-flex ' >
-<form ref={form} onSubmit={sendEmail} className='row  m-auto  p-5 ' >
-   <input type="text" name="user_name" id="" placeholder='Enter Your Name' className='form-control bg-transparent text-white mt-4'/>
-    <input type="email" name="user_email" id="" className='form-control text-white bg-transparent m-auto mt-4' placeholder='Enter Your Email'/>
-    <textarea name="message" id="" cols="20" rows="4" placeholder='Enter Your Message' className='form-control text-white bg-transparent m-auto mt-4'></textarea>
+<form ref={form} onSubmit={sendEmail} className='row  m-auto  p-5 text-white' >
+  
+   <input type="text" name="user_name" id="" placeholder='Enter Your Name' className='form-control place bg-transparent text-danger'  />
+   
+    <input type="email" name="user_email" id="" className='form-control text-white bg-transparent place m-auto mt-4' placeholder='Enter Your Email'/>
+    
+    <textarea name="message" id="" cols="20" rows="4" placeholder='Enter Your Message' className='form-control place text-white bg-transparent m-auto mt-4'></textarea>
     <div className='mt-4'>
     <input className='btn btn-outline-light' type='submit' value="send" onClick={submitted}></input>
     </div>
