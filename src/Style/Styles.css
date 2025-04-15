@@ -326,7 +326,43 @@ p {
 
   }
 }
-
 .place::placeholder {
   color: #faf9f9 !important;
+
+  text-shadow: 0 0 10px #000 !important;
+  font-family: sans-serif !important;
+  text-decoration: none !important;
+
+}
+.place:focus{
+  outline: none !important;
+
+  box-shadow: 0 0 10px #b31919 !important;
+  text-decoration: none !important;
+  text-shadow: 0 0 10px #9b2727 !important;
+  color: #fff !important;
+  background: #000 !important;
+  border: 2px solid #9f1313 !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+
+.skill-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 15px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #333;
+  transition: 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  background-color: #333;
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #555;
 }

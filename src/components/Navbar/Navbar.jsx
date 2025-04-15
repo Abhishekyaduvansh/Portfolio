@@ -60,7 +60,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-        <a href="https://drive.google.com/file/d/1QswJ7i855EGbZM1yNSfSfMoPip39RZiW/view?usp=drive_link" className="btn btn-outline-danger mt-3 mb-2   ms-4 ">Download CV</a>
+        <a href="https://docs.google.com/document/d/1f1BmhDA-36O3z2e52Au3wrWJedeqfa9kmB3SAchjpqc/edit?usp=sharing" className="btn btn-outline-danger mt-3 mb-2   ms-4 ">Download CV</a>
         </li>
       </ul>
     </nav>

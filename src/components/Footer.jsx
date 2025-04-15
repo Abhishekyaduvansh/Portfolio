@@ -8,13 +8,15 @@ function Footer() {
             <div className='col-md-3 mb-3  text-start mt-5 m-auto'>
                 
                 
-                <h1 className='mt-2'>Portfolio.</h1>
-                <hr />
-                <p >&copy; 2023 - My Personal Website</p>
-    <small >
-    Designed and built with all the love in the world by 
-    <a href="https://github.com/AbhishekYaduvansh"  className='link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Abhishek  Yadav </a>
-    </small>
+            <h1 className='mt-2'>Portfolio.</h1>
+      <hr />
+      <p>&copy; 2024 - My Personal Portfolio Website</p>
+      <small>
+        Designed with ❤️ by
+        <a href="https://github.com/AbhishekYaduvansh" className='link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Abhishek Yadav</a>
+      </small>
+      <p className='mt-3'>Email: <a href="mailto:abhiyadvnshi098@gmail.com" className='link-danger link-underline-opacity-25'>abhiyadvnshi098@gmail.com</a></p>
+      <p>Based in Bangalore, India 🇮🇳</p>
             </div>
        
            <div className="col-1 m-auto mt-5  p-3 text-center  text-white list" >
