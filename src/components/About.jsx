@@ -28,12 +28,17 @@ function About() {
   return (
     <>
       {/* About Me Section */}
-      <div>
-        <div className='box bg-black' style={{ height: "200px" }} id="About"></div>
+      <div style={{
+  background: ' linear-gradient(180deg,rgba(0, 0, 0, 0.41) 0%, rgba(173, 173, 173, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 94%)',
+  backdropFilter: 'blur(6px)',
+  WebkitBackdropFilter: 'blur(6px)'
+}} className='text-white  pt-5 pb-5'>
 
-        <div className="container-fluid row bg-white m-auto p-0">
+        <div className='box'  id="About"></div>
+
+        <div className="container-fluid row  m-auto mt-5 p-0">
           <div className='col-md-3 text-center m-auto mt-0 col-sm-12'>
-            <h1 className='mb-2 mt-2' style={{ display: "inline" }}>
+            <h1 className='mb-2 mt-2 tracking-in-contract-bck' style={{ display: "inline" }}>
               About <span style={{ color: "#9f1313" }} >Me </span>:
             </h1>
             <p className='mt-3' data-aos="zoom-in">
@@ -51,14 +56,18 @@ function About() {
       </div>
 
       {/* Skills Section */}
-      <div className='bg-black text-white mt-5'>
+      <div className=' text-white ' style={{
+  background: '  linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.73) 72%, rgba(255, 255, 255, 1) 100%)',
+  backdropFilter: 'blur(6px)',
+  WebkitBackdropFilter: 'blur(6px)'
+}}>
   <div className="container-fluid d-flex justify-content-end">
-    <h1 style={{ width: "300px" }} className='mt-5 animate__animated animate__fadeInLeft animate__delay-2s animate__slow-3s'>
+    <h1 style={{ width: "300px" }} className='mt-5 tracking-in-contract-bck text-center'>
       Skills<span className='text-danger'>.</span>
     </h1>
   </div>
 
-  <div className="container mt-5">
+  <div className="container mt-5" >
     <div className="row justify-content-center text-center g-4">
 
       {/* Single Skill Card */}

@@ -366,3 +366,34 @@ p {
   transform: translateY(-5px);
   box-shadow: 0 0 15px #555;
 }
+.tracking-in-contract-bck{
+  animation:tracking-in-contract-bck 1s cubic-bezier(.215,.61,.355,1.000) both
+}
+ @keyframes tracking-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
+
+.bg {
+  /* Backgroung Image */
+  background-image: "../Image/NatureBG.jpeg";
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  box-shadow: 5px 5px 10px #9f1313 , -5px -5px 10px #9f1313;
+  margin-bottom:20px ;
+  animation: 4s linear 0s 2 normal sun-down;
+}  
+
+
+/* Contact */
+.glow-card {
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-card:hover {
+  box-shadow: 0 0 16px rgba(255, 0, 0, 0.8);
+  transform: scale(1.04);
+}
+

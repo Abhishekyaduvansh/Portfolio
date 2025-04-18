@@ -1,6 +1,7 @@
 import React, { useEffect} from 'react'
 import '../Style/Styles.css'
 import My from '../Images/My1.jpg'
+import bg from '../Images/NatureBG.jpeg'
 
 
 import 'aos/dist/aos.css';
@@ -15,15 +16,21 @@ function Home() {
     
   },[])
   return (
-    <>
-    <div className=' p-5 bg-black justify-content-space-evenly align-items-center text-white ' id='home'>
+    <><div className="container-fluid m-0 p-0 " style={{
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.5)), url(${bg})`,
+      backgroundSize: "cover",
+      backgroundAttachment: "fixed",   
+      backgroundRepeat: "no-repeat",
+      height: "auto",
+    }}>
+    <div className=' p-5 justify-content-space-evenly align-items-center text-white ' id='home'>
       <div className='row  d-flex '>
         <div className='col-md-5 image'>
            <img src={My} alt="" width={"300vw"}data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200" />
         </div>
-        <div className='col text-center headings' data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+        <div className='col text-center headings tracking-in-contract-bck' data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
           <h3 className=' ' style={{display:"inline"}}>Hey, It's Me</h3><br/>
-          <h1 className=' text-white'  style={{display:"inline"}} >Abhishek Yadav</h1> <br/>
+          <h1 className=' text-white '  style={{display:"inline"}} >Abhishek Yadav</h1> <br/>
             <h1 className='' style={{display:"inline"}}>And I'm a</h1><br/>
             <h1 ><div className="message"><div className="word1">Full-Stack Developer</div></div></h1>
           
@@ -42,9 +49,9 @@ function Home() {
 </div>
    </div>
 
-   <div className='container-fluid m-0 pt-5 bg-black row justify-content-center' >
+   <div className='container-fluid m-0 pt-5  row justify-content-center' >
     <div className="col-sm-12 col-md-8 text-center features "> 
-      <p className="col" style={{color:"#c8bcbc"} } data-aos="fade-out" data-aos-duration="1500" data-aos-delay="200"> <i class='bx bxs-quote-alt-left text-white'></i> I’m a Full-Stack Developer with 1+ year of professional experience working on real-time projects and application development. My expertise includes website design, API development, database management, microservices architecture, and frontend development.
+      <p className="col" style={{color:"white"} } > <i class='bx bxs-quote-alt-left text-white'></i> I’m a Full-Stack Developer with 1+ year of professional experience working on real-time projects and application development. My expertise includes website design, API development, database management, microservices architecture, and frontend development.
 
 I am Abhishek Yadav, a B.Tech Computer Science Engineering graduate from the Accurate Institute of Management and Technology (AKTU), Greater Noida.
 
@@ -52,7 +59,7 @@ Passionate about coding, problem-solving, and delivering scalable, high-performa
 
 Over time, I’ve honed my skills in user interface design, database optimization, algorithms, and data structures. I’m dedicated to continuously evolving as a developer by learning new technologies, improving existing skills, and staying current with industry best practices.
 
-Driven by curiosity and a genuine love for building meaningful digital solutions, I'm always eager to take on new challenges, contribute to impactful projects, and grow in the world of software development..<i class='bx bxs-quote-alt-right text-white'></i></p>
+Driven by curiosity and a genuine love for building meaningful digital solutions, I'm always eager to take on new challenges, contribute to impactful projects, and grow in the world of software development.<i class='bx bxs-quote-alt-right text-white'></i></p>
         
         <div className='home'>
           
@@ -63,6 +70,10 @@ Driven by curiosity and a genuine love for building meaningful digital solutions
    
     
    </div>
+   </div>
+    
+
+
             </>
   )
 }

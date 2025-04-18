@@ -5,23 +5,23 @@ import React from 'react'
 function Projects() {
   return (
     <>
-      <section className='container text-center mt-5 mb-5 ' id='projects'>
+      <section className='container text-center mt-5 mb-5 ' id='projects' >
         {/* This section is for showcasing my projects */}
         <h1 style={{ display: "inline" }} className='text-center fw-bold fs-1 mt-5 m-auto'>Projects<span className='text-danger'>.</span></h1>
 
         {/* Project 1: YelpCamp */}
-        {/* <div className='row container justify-content-center m-auto mt-5 mb-4 '>
+        <div className='row container justify-content-center m-auto mt-5 mb-4 '>
           <div className='col mt-5 m-auto' data-Aos="fade-up">
             <div className="book">
               <p></p>
               <div className="cover text-white">
-                <p>YelpCamp</p>
+                <p>JPU Construction</p>
               </div>
             </div>
           </div>
           <div className="col mt-5">
-            <h3 className='text-center'>YelpCamp</h3>
-            <small>YelpCamp is a camping site listing platform for adventure lovers, allowing users to log in, post campsites, check prices, and comment.</small>
+            <h3 className='text-center'>JPU Construction</h3>
+            <small>Progresive Website for a Constuction company, Created Proper designed website using Tailwind and Vite+React<a href='https://abhishekyaduvansh.github.io/JPU_Constructions/' className='text-danger' target='_blank'> JPU Construction</a></small>
             <h5 className='mt-3'>Technologies Used</h5>
             <span style={{ fontSize: "25px" }}><i class='bx bxl-html5' style={{ color: "orange" }}></i>&nbsp;
               <i class='bx bxl-css3' style={{ color: "blue" }}></i>&nbsp;
@@ -30,7 +30,7 @@ function Projects() {
               <i class='bx bxl-mongodb' style={{ color: "green" }}></i>
             </span>
           </div>
-        </div> */}
+        </div>
 
         {/* Project 5: Clothing Platform */}
         <div className='row container justify-content-center m-auto mt-5 mb-4 '>
