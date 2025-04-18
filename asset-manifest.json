@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.014c4d72.css",
-    "main.js": "/Portfolio/static/js/main.b9214082.js",
+    "main.css": "/Portfolio/static/css/main.0cee81eb.css",
+    "main.js": "/Portfolio/static/js/main.91690de2.js",
     "static/media/My1.jpg": "/Portfolio/static/media/My1.91e4119ff70968d8fb8f.jpg",
     "static/media/tomcat.png": "/Portfolio/static/media/tomcat.c1810480807aa3a3ca7c.png",
     "static/media/mySql.png": "/Portfolio/static/media/mySql.167c88550478e6f0f85c.png",
+    "static/media/NatureBG.jpeg": "/Portfolio/static/media/NatureBG.34c75a4578b4d28d419b.jpeg",
     "static/media/css.webp": "/Portfolio/static/media/css.8a9cb64261d07da57f4f.webp",
     "static/media/kali.jpg": "/Portfolio/static/media/kali.a2977fb7431951d35142.jpg",
     "static/media/spring-boot-logo.png": "/Portfolio/static/media/spring-boot-logo.94f201ce44348763e6a5.png",
@@ -16,11 +17,11 @@
     "static/media/bootstrap-logo.png": "/Portfolio/static/media/bootstrap-logo.9b083ec66be019633ffb.png",
     "static/media/reactimg.png": "/Portfolio/static/media/reactimg.ccb97f287d4d51b10a6b.png",
     "index.html": "/Portfolio/index.html",
-    "main.014c4d72.css.map": "/Portfolio/static/css/main.014c4d72.css.map",
-    "main.b9214082.js.map": "/Portfolio/static/js/main.b9214082.js.map"
+    "main.0cee81eb.css.map": "/Portfolio/static/css/main.0cee81eb.css.map",
+    "main.91690de2.js.map": "/Portfolio/static/js/main.91690de2.js.map"
   },
   "entrypoints": [
-    "static/css/main.014c4d72.css",
-    "static/js/main.b9214082.js"
+    "static/css/main.0cee81eb.css",
+    "static/js/main.91690de2.js"
   ]
 }
